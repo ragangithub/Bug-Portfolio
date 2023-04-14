@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <div class="logo"><a href="#">My Logo</a></div>
+
+        <i class="fa fa-bars menu" aria-hidden="true"></i>
+
+        <div class="nav-links mobile">
+          <div class="cancel"><img src="./images/Icon@2x.svg" alt="" /></div>
+
+          <a class="links" id="work" href="#works">Portfolio</a>
+          <a class="links" id="about" href="#abouts">About</a>
+          <a class="links" id="contact" href="#contacts">Contact</a>
+        </div>
+
+        <div class="nav-links desktop">
+          <a href="#">portfolio</a>
+          <a href="#">about</a>
+          <a href="#">contact</a>
+        </div>
+      </nav>
+      <div class="headline">
+        <h1 class="headline-alexandra_small">
+          I’m Alexandra.<br />
+          Glad to see you!
+        </h1>
+        <p class="description">
+          I’m a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hesitate to contact
+          me.
+        </p>
+        <div class="connect">
+          <a class="connected" href=""> LETS CONNECT</a>
+        </div>
+        <ul class="icons">
+          <li>
+            <a class="link" href=""
+              ><i class="fa fa-twitter" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a class="link" href=""
+              ><i class="fa fa-linkedin" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a class="link" href=""
+              ><img src="images/Vector.png" alt="medium-icon"
+            /></a>
+          </li>
+          <li>
+            <a class="link" href=""
+              ><i class="fa fa-github" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a class="link" href=""
+              ><i class="fa fa-angellist" aria-hidden="true"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="overlay hidden"></div>
+    <section id="works" class="works"></section>
+
+    <section id="abouts" class="about">
+      <div class="left">
+        <h3>About Myself</h3>
+        <p class="description">
+          Hello I’m a software developer! I can help you build a product ,
+          feature or website. Look through some of my work and experience! If
+          you like what you see and have a project you need coded, don’t
+          hesitate to contact me.
+        </p>
+
+        <p class="connect">LET'S CONNECT</p>
+
+        <ul class="icons">
+          <li>
+            <a class="link" href=""
+              ><i class="fa fa-twitter" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a class="link" href=""
+              ><i class="fa fa-linkedin" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a class="link" href=""
+              ><img src="images/Vector.png" alt="medium-icon"
+            /></a>
+          </li>
+          <li>
+            <a class="link" href=""
+              ><i class="fa fa-github" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a class="link" href=""
+              ><i class="fa fa-angellist" aria-hidden="true"></i
+            ></a>
+          </li>
+        </ul>
+        <div class="resume">
+          <a href="" class="resume-link">Get my resume </a>
+        </div>
+      </div>
+      <ul class="modals">
+        <li>
+          <div class="lang selected">
+            <span>Languages</span>
+            <i class="fa-solid fa-arrow-down"></i>
+          </div>
+          <ul class="technologies">
+            <li>
+              <img src="images/javascript.png" alt="" />
+              <p>JavaScript</p>
+            </li>
+            <li>
+              <img src="images/html.png" alt="" />
+              <p>HTML</p>
+            </li>
+            <li>
+              <img src="images/css.png" alt="" />
+              <p>CSS</p>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="lang">
+            <span>Frameworks</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </li>
+
+        <li>
+          <div class="lang">
+            <span>Skills</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contacts" class="contact">
+      <div class="check">
+        <h4>contact me</h4>
+        <p class="description">
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it!
+        </p>
+        <form action="https://formspree.io/f/xbjeaboy" method="POST">
+          <ul>
+            <li>
+              <input
+                type="text"
+                name="user_name"
+                maxlength="30"
+                placeholder="Full name"
+                required
+              />
+            </li>
+            <li>
+              <input type="email" name="user_email" placeholder="enter email" />
+            </li>
+            <li>
+              <textarea
+                name="user_message"
+                placeholder="write your message here..."
+                maxlength="500"
+                rows="4"
+                cols="50"
+                required
+              ></textarea>
+            </li>
+
+            <li class="error"></li>
+            <li class="button">
+              <button type="submit">Get in Touch</button>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
